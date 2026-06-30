@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Md Rezoanur Rahman - Experimental Materials Scientist">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b132b"/>
+      <stop offset="55%" stop-color="#1c2541"/>
+      <stop offset="100%" stop-color="#3a506b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5bc0be"/>
+      <stop offset="100%" stop-color="#6fffe9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <!-- subtle crystal-lattice motif -->
+  <g stroke="#5bc0be" stroke-width="1" opacity="0.18">
+    <g fill="#6fffe9">
+      <circle cx="930" cy="70" r="3"/><circle cx="1010" cy="70" r="3"/><circle cx="1090" cy="70" r="3"/>
+      <circle cx="930" cy="150" r="3"/><circle cx="1010" cy="150" r="3"/><circle cx="1090" cy="150" r="3"/>
+      <circle cx="930" cy="230" r="3"/><circle cx="1010" cy="230" r="3"/><circle cx="1090" cy="230" r="3"/>
+      <circle cx="970" cy="110" r="3"/><circle cx="1050" cy="110" r="3"/>
+      <circle cx="970" cy="190" r="3"/><circle cx="1050" cy="190" r="3"/>
+    </g>
+    <path d="M930 70 L1010 70 L1090 70 M930 150 L1090 150 M930 230 L1090 230
+             M930 70 L930 230 M1010 70 L1010 230 M1090 70 L1090 230
+             M930 70 L970 110 L930 150 L970 190 L930 230
+             M1010 70 L1050 110 L1010 150 L1050 190 L1010 230
+             M970 110 L1050 110 M970 190 L1050 190"/>
+  </g>
+
+  <!-- waveform (phonon / thermal-transport nod) -->
+  <path d="M70 250 Q120 210 170 250 T270 250 T370 250 T470 250" fill="none" stroke="url(#accent)" stroke-width="2.5" opacity="0.55"/>
+
+  <text x="70" y="120" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Md Rezoanur Rahman</text>
+  <text x="72" y="165" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="url(#accent)">Experimental Materials Scientist · PhD (Materials Engineering)</text>
+  <text x="72" y="200" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#c5c6c7">Thermoelectrics · Phonon Transport · Neutron Scattering · Advanced Characterization · Recyclable Polymers</text>
+
+  <rect x="72" y="222" width="360" height="2" fill="#5bc0be" opacity="0.6"/>
+</svg>
